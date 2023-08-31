@@ -48,10 +48,20 @@ public class Calculadora {
 
                         break;
                     case 3:
-
+                    System.out.println("Selecione o primeiro número para multiplicar: ");
+                    double mult1 = scanner.nextDouble();
+                    System.out.println("Selecione o segundo número para multiplicar: ");
+                    double mult2 = scanner.nextDouble();
+                    double resultMult = realizar.mult(mult1,mult2);
+                    System.out.println("Resultado: " + resultMult);
                         break;
                     case 4:
-
+                    System.out.println("Selecione o primeiro número para dividir: ");
+                    double div1 = scanner.nextDouble();
+                    System.out.println("Selecione o segundo número para dividir: ");
+                    double div2 = scanner.nextDouble();
+                    double resultDiv = realizar.div(div1,div2);
+                    System.out.println("Resultado: " + resultDiv);
                         break;
                     case 5:
                         System.out.println("Digite um valor para calcular seu seno: ");
