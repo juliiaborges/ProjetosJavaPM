@@ -42,7 +42,16 @@ class CalculadoraTest {
         double result = calcular.sub(10, 6);
         assertEquals(6, result);
     }
-
+   @Test
+   public void testMult(){
+    double result = calcular.mult(2,5);
+    assertEquals (10, result);
+   }
+   @Test 
+   public void testDiv(){
+   double result = calcular.div(10,2);
+   assertEquals (5, result);
+   }
     @Test
     public void testCosceno() {
         double cosceno = Operacoes.cosceno(42);
