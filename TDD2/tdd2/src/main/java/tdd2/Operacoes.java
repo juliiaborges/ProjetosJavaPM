@@ -10,6 +10,12 @@ public class Operacoes {
      public double sub(double a, double b){
         return a - b ;
      }
+    public double mult(double a, double b){
+        return a * b;
+    }
+    public double div(double a, double b){
+        return a/b;
+    }
 
     public double raiz(double num1) {
 
